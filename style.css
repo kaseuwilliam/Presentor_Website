@@ -1,0 +1,42 @@
+#presentation_table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#presentation_table td, #presentation_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#presentation_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#presentation_table tr:hover {background-color: #ddd;}
+
+#presentation_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#add_presentor {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#add_presentor:hover {
+    background-color: white; 
+    color: black;
+}
